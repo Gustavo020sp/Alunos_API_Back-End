@@ -1,4 +1,5 @@
 using Aluno_API.Context;
+using Aluno_API.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace Aluno_API
@@ -11,6 +12,7 @@ namespace Aluno_API
 
             // Add services to the container.
 
+            builder.Services.AddScoped<IAlunosService, AlunosService>();
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
