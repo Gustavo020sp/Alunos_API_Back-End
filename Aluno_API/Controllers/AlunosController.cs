@@ -139,6 +139,7 @@ namespace Aluno_API.Controllers
             catch
             {
                 return BadRequest();
+                //teste
             }
         }
     }
