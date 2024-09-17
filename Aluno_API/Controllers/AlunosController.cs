@@ -39,8 +39,8 @@ namespace Aluno_API.Controllers
         }
 
         //ENDPOINT aluno id
-        [HttpGet("AlunoPorId", Name = "GetAluno")]
-        public async Task<ActionResult<Aluno>> GetAluno([FromQuery] int id)
+        [HttpGet("{id:int}")]
+        public async Task<ActionResult<Aluno>> GetAluno(int id)
         {
             try
             {
