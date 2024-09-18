@@ -2,12 +2,12 @@
 Este projeto é uma API RESTful desenvolvida com ASP.NET Core que permite a criação, leitura, atualização e exclusão (CRUD) de informações de alunos. A API também oferece a possibilidade de buscar alunos por nome ou ID, além de realizar operações de alteração e exclusão.
 
 ## Funcionalidades
-Listar alunos: Retorna uma lista com todos os alunos cadastrados.
-Buscar aluno por ID: Retorna os detalhes de um aluno específico com base no ID.
-Buscar aluno por nome: Retorna uma lista de alunos que contenham o nome buscado (busca parcial).
-Criar aluno: Permite a criação de um novo aluno.
-Atualizar aluno: Atualiza as informações de um aluno existente.
-Deletar aluno: Remove um aluno do banco de dados.
+Listar alunos: Retorna uma lista com todos os alunos cadastrados.  
+Buscar aluno por ID: Retorna os detalhes de um aluno específico com base no ID.  
+Buscar aluno por nome: Retorna uma lista de alunos que contenham o nome buscado (busca parcial).  
+Criar aluno: Permite a criação de um novo aluno.  
+Atualizar aluno: Atualiza as informações de um aluno existente.  
+Deletar aluno: Remove um aluno do banco de dados.  
 
 ## Tecnologias Utilizadas
 -ASP.NET Core: Framework para desenvolvimento de APIs web escaláveis.  
