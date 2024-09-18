@@ -23,39 +23,39 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 Navegue até a pasta do projeto:
 cd nome-do-projeto
 
-Configure o banco de dados:
-No arquivo appsettings.json, configure a string de conexão com o banco de dados de sua preferência.
-Exemplo:
+Configure o banco de dados:  
+No arquivo appsettings.json, configure a string de conexão com o banco de dados de sua preferência.  
+Exemplo:  
 json
 Copy code
 "ConnectionStrings": {
   "DefaultConnection": "Server=localhost;Database=AlunosDb;User Id=seu-usuario;Password=sua-senha;"
 }
 
-Restaurar as dependências:
+Restaurar as dependências:  
 dotnet restore
 
-Executar as migrações para criar o banco de dados:
-dotnet ef database update
+Executar as migrações para criar o banco de dados:  
+dotnet ef database update  
 
-Iniciar a aplicação:
-dotnet run
-Acessar a documentação da API:
+Iniciar a aplicação:  
+dotnet run  
+Acessar a documentação da API:  
 
 Abra seu navegador e vá até o endereço: http://localhost:5000/swagger para visualizar e testar as rotas da API.
 
-### Endpoints
-GET /api/alunos
-Retorna uma lista com todos os alunos.
+### Endpoints  
+GET /api/alunos  
+Retorna uma lista com todos os alunos.  
 
-GET /api/alunos/{id}
-Retorna os detalhes de um aluno específico com base no ID.
+GET /api/alunos/{id}  
+Retorna os detalhes de um aluno específico com base no ID.  
 
-GET /api/alunos?nome={nome}
-Busca alunos pelo nome.
+GET /api/alunos?nome={nome}  
+Busca alunos pelo nome.  
 
-POST /api/alunos
-Cria um novo aluno.
+POST /api/alunos  
+Cria um novo aluno.  
 
 Body:
 json
