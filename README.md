@@ -10,10 +10,10 @@ Atualizar aluno: Atualiza as informações de um aluno existente.
 Deletar aluno: Remove um aluno do banco de dados.
 
 ## Tecnologias Utilizadas
--ASP.NET Core: Framework para desenvolvimento de APIs web escaláveis.
--Entity Framework Core: ORM utilizado para comunicação com o banco de dados.
--SQL Server/MySQL: Banco de dados para armazenar os registros dos alunos.
--Swagger: Interface para documentação e teste das rotas da API.
+-ASP.NET Core: Framework para desenvolvimento de APIs web escaláveis.  
+-Entity Framework Core: ORM utilizado para comunicação com o banco de dados.  
+-SQL Server/MySQL: Banco de dados para armazenar os registros dos alunos.  
+-Swagger: Interface para documentação e teste das rotas da API.  
 
 ### Como Executar o Projeto
 
