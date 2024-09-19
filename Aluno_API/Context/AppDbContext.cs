@@ -5,9 +5,13 @@ using Microsoft.AspNetCore.Identity;
 
 namespace Aluno_API.Context
 {
-    public class AppDbContext : IdentityDbContext<IdentityUser>
+    public class AppDbContext : DbContext/*IdentityDbContext<IdentityUser>*/
     {
-        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+        //public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+        public AppDbContext(DbContextOptions<AppDbContext> options)
+            : base(options)
+        {
+        }
         public DbSet<Aluno> Alunos { get; set; }
 
         //seed database
